@@ -1,7 +1,7 @@
-z=int(input())
-if(z>0 and z%2==0):
-  print("Even")
-elif(z>0 and z%2!=0):
-  print("Odd")
+y=int(input())
+if(y<0):
+  print("Negative")
+elif(y>0):
+  print("Positive")
 else:
-  print("invalid")
+  print("Zero")
